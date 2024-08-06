@@ -37,11 +37,16 @@ textarea {
     height: 160px;
     padding: 20px;
     background-color: #673ab7;
+    background-image: url(imagens/pexels-photo-23952899.webp);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
 }
 
 .header h3 {
-    color: #fff;
+    color: black;
     margin-top: 0;
+    display: block;
 }
 
 /* form container */
@@ -119,11 +124,11 @@ textarea {
     cursor: pointer;
     text-transform: uppercase;
     transition: 0.5s;
+    border-radius: 10px;
 }
 
 .btn-submit:hover {
     background-color: white;
     border-color: #673ab7;
     color: #673ab7;
-
 }
